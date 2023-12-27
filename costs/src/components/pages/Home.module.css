@@ -1,0 +1,35 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+
+.Home h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.Home h1 span {
+  margin-bottom: 1.5em;
+  color: #ffbb33;
+  background-color: #222;
+}
+
+.Home h3 {
+  margin-bottom: 1.5em;
+  color: #7b7b7b;
+}
+
+.Home a {
+  background-color: #222;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.Home a:hover {
+    color: #ffbb33;
+}

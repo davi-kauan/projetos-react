@@ -1,0 +1,20 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.Form label {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+.Form input {
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+}
+
+.Form input::placeholder {
+    color: #7b7b7b;
+}
