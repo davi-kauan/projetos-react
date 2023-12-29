@@ -2,13 +2,13 @@
     padding: 2em;
 }
 
-.ProjectsTitle {
+.ProjectsHead {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2em;
 }
 
-.ProjectsTitle a {
+.ProjectsHead a {
     background-color: #222;
     color: #fff;
     padding: 0.5em 1em;
@@ -19,10 +19,6 @@
     max-height: 40px;
 }
 
-.ProjectsTitle a:hover {
+.ProjectsHead a:hover {
     color: #ffbb33;
-}
-
-.ProjectsList {
-    display: flex;
 }

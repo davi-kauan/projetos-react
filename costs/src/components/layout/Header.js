@@ -1,20 +1,22 @@
-import ButtonLink from "../ButtonLink"
-import styles from './NavBar.module.css'
+import {Link} from 'react-router-dom'
+import styles from './Header.module.css'
 import logo from '../../img/costs_logo.png'
 
-function NavBar () {
+function Header () {
 
     return (
-        <div className={styles.NavBar}>
+        <header>
             <img src={logo} alt='logo' />
-            <div className={styles.NavBarList} >
-                <ButtonLink link='/'> Home </ButtonLink>
-                <ButtonLink link='/projects'> Projetos </ButtonLink>
-                <ButtonLink link='/company'> Empresa </ButtonLink>
-                <ButtonLink link='/contact'> Contato </ButtonLink>
+            <div className={styles.NavList} >
+            {
+                [['/', 'Home'], ['/projects', 'Projetos'], ['/company', 'Empresa'], ['contact', 'Contato']]
+                .map(([link, name]) => (
+                    <Link to={link} > {name} </Link>
+                ))
+            }
             </div>
-        </div>
+        </header>
     )
 }
 
-export default NavBar
+export default Header
