@@ -5,7 +5,7 @@ import styles from './Footer.module.css'
 function Footer () {
 
   return (
-    <footer className={styles.Footer} >
+    <footer>
       <div className={styles.social_list}>
         <FaFacebook className={styles.social_list_item}/>
         <FaInstagram className={styles.social_list_item} />

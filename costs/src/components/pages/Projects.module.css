@@ -1,0 +1,28 @@
+.Projects {
+    padding: 2em;
+}
+
+.ProjectsTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.ProjectsTitle a {
+    background-color: #222;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+    max-height: 40px;
+}
+
+.ProjectsTitle a:hover {
+    color: #ffbb33;
+}
+
+.ProjectsList {
+    display: flex;
+}
